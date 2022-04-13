@@ -37,6 +37,7 @@ body {
 
 a {
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button {
@@ -86,6 +87,10 @@ a {
     border-radius: 24px;
     padding: 5px 35px;
     text-decoration: none;
+}
+
+.search{
+    background-color: grey;
 }
 
 #placeholder-right{
