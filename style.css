@@ -25,8 +25,11 @@ body {
 #mid-column{
     width: 30%;
     border-right: 1px solid black;
+    
 }
 
+#right-column{
+}
 
 
 
@@ -114,17 +117,15 @@ a {
     background-color: rgb(246, 248, 248);
     padding: 20px;
     margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 20px;
+    width: 300px;
     
 }
 
 .whats-happening-single-block{
-    padding-bottom: 15px;
-    
-    
+    padding-bottom: 20px;
 }
 
 .whats-happening-single-block:hover{
@@ -137,14 +138,31 @@ a {
 }
 
 .whats-happening-block__title{
-    font-size: 13px;
+    font-size: 12px;
+    color: rgb(83, 100, 113);
+    padding-bottom: 5px;
 }
 
 .whats-happening-block__content {
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(15, 20, 25);
     font-weight: 700;
     font-stretch: 100%;
+}
+
+.whats-happening-block_tweets{
+    font-size: 12px;
+    color: rgb(83, 100, 113);
+}
+
+.whats-happening__images{
+    
+}
+
+.who-to-follow-__single-block{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
 }
 
 /*
