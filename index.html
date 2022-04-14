@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Home / Twitter</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <!--
@@ -74,8 +75,18 @@
 
             </div>
             <div id="mid-column">
-                <a href="">Home</a>
-                <a href=""><img src="/images/top tweets.png" alt=""></a>
+                <div id="top-bar">
+                    <div>
+                        <h1 id="home-text">Home</h1>
+                    </div>
+                    <div>
+                        <a id="top-right-bar" href=""><img height="25px" src="/images/icons8-sparkling-50.png" alt=""></a>
+                    </div>
+                    
+                    
+                </div>
+                
+                
                 <br>
                 <a id="profile-pic-top" href="" class="buttonLeftSide"><img src="/images/Pic profile.png" alt=""></a>
                 <input type="text" placeholder="What's happening?">
@@ -87,38 +98,61 @@
                 
             </div>
             <div id="right-column">
+                <div id="search-div">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input id="search-input" type="text" placeholder="Search on Twitter">
+
+                </div>
                 <div class="whats-happening">
                     <div class="whats-happening-block">
                         <h3 id="whats-happening">What's happening</h3>
                         <div class="whats-happening-single-block">
-                            <div class="whats-happening-block__title">
-                                War in Ukraine LIVE
-                            </div>
+                            <div class="whats-happening-single-block__content">
+                                <div class="whats-happening__content__title">
+                                    War in Ukraine LIVE
+                                </div>
                             
-                            <div class="whats-happening-block__content">
-                                Ukrainian humanitarian corridors halted as evacuation routes deemed 'too dangerous'
+                                <div class="whats-happening__content__text">
+                                    Ukrainian humanitarian corridors halted as evacuation routes deemed 'too dangerous'
                                 
+                                </div>
                             </div>
+                            <div>
+                                <img class="whats-happening__content_image" src="https://pbs.twimg.com/semantic_core_img/1514597099492429825/qMnhsnEg?format=jpg&name=240x240" alt="">
+                           </div>
                         </div>
                         <div class="whats-happening-single-block">
-                            <div class="whats-happening-block__title">
-                            Trending in Canada
-                            </div>
+                            <div class="whats-happening-single-block__content">
+                                <div class="whats-happening__content__title">
+                                    Trending in Canada
+                                </div>
 
-                            <div class="whats-happening-block__content">
-                            #ABEd
+                                <div class="whats-happening__content__text">
+                                    #ABEd
+                                </div>
+                                <div class="whats-happening-block_tweets">
+                                    1,527 Tweets
+                                </div>
                             </div>
-                            <div class="whats-happening-block_tweets">
-                                1,527 Tweets
+                            <div>
+                                <img class="whats-happening__content_image" src="/images/More.png" alt="">
                             </div>
                         </div>
                         
                         <div class="whats-happening-single-block">
-                            <div class="whats-happening-block__title">
-                            War in Ukraine LIVE
+                            <div class="whats-happening-single-block__content">
+                                <div class="whats-happening__content__title">
+                                    Business & Finance · 1 hour ago
+                                </div>
+                                <div class="whats-happening__content__text">
+                                    Elon Musk makes offer to buy Twitter
+                                </div>
+                                <div class="whats-happening-block_tweets">
+                                    Trending with Elon Musk, Jeff Fillion
+                                </div>
                             </div>
-                            <div class="whats-happening-block__content">
-                            Ukrainian humanitarian corridors halted as evacuation routes deemed 'too dangerous'
+                            <div>
+                                <img class="whats-happening__content_image" src="https://pbs.twimg.com/semantic_core_img/1514614616961085441/tX1lZyeG?format=jpg&name=360x360" alt="">
                             </div>
                         </div>
                         <a href="" class="blueLink">Show more</a>
@@ -128,10 +162,10 @@
                         <div class="who-to-follow__block">
                             <h3 id="whats-happening">Who to follow</h3>
                             <div class="who-to-follow__single-block">
-                                <img src="/images/Pic profile.png" class="who-to-follow__image" alt="">
-                                <div class="content">
+                                <img src="/images/meninoNey.jpg" class="who-to-follow__image" alt="">
+                                <div class="who-to-follow__content">
                                     <div class="who-to-follow__user-name">
-                                        Neymar Juniot
+                                        Neymar Junior
                                     </div>
                                     <div class="who-to-follow__user-acc">
                                         @neymarjr
@@ -142,8 +176,8 @@
                                 </div>
                             </div>
                             <div class="who-to-follow__single-block">
-                                <img src="/images/Pic profile.png" class="who-to-follow__image" alt="">
-                                <div class="content">
+                                <img src="/images/trudeau.jpg" class="who-to-follow__image" alt="">
+                                <div class="who-to-follow__content">
                                     <div class="who-to-follow__user-name">
                                         Justin Trudeau
                                     </div>
@@ -156,8 +190,8 @@
                                 </div>
                             </div>
                             <div class="who-to-follow__single-block">
-                                <img src="/images/Pic profile.png" class="who-to-follow__image" alt="">
-                                <div class="content">
+                                <img src="/images/disney.jpg" class="who-to-follow__image" alt="">
+                                <div class="who-to-follow__content">
                                     <div class="who-to-follow__user-name">
                                         Disney
                                     </div>
@@ -169,6 +203,7 @@
                                     Follow
                                 </div>
                             </div>
+                            <a href="" class="blueLink">Show more</a>
                         </div>
                     </div>
                 </div>
