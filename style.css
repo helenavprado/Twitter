@@ -159,11 +159,67 @@ a {
     
 }
 
-.who-to-follow-__single-block{
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
+.who-to-follow__block{
+    background-color: rgb(246, 248, 248);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    width: 300px;
 }
+
+.who-to-follow__title{
+    padding-bottom: 100px;
+    font-weight: 700;
+}
+
+.who-to-follow__single-block{
+    display: flex;
+    padding: 10px, 15px;
+    align-items: center;
+}
+
+.who-to-follow__user-name{
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.who-to-follow__user-acc{
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    cursor: pointer;
+}
+
+.who-to-follow__image{
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    margin-right: 10px;
+    
+}
+
+.who-to-follow__content{
+    display: flex;
+
+}
+
+.who-to-follow__button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 15px 8px 15px;
+    
+
+}
+
+
+
 
 /*
 color blue twitter RBG: 91, 154, 236
