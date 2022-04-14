@@ -305,10 +305,34 @@ a {
     font-size: 12px;
     padding: 8px 15px 8px 15px;
     
+}
 
+.timeline__single-block{
+    display: flex;
+    border-bottom: 1 px solid;
+    border-top: 1 px solid;
 }
 
 
+.timeline__single-block__image{
+    border-radius: 20px;
+    height: 344px;
+    width: 504x;
+}
+
+.timeline__single-block__tweet{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+
+.timeline__single-block__icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
 
 
 /*
